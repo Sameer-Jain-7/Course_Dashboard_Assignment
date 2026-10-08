@@ -163,6 +163,7 @@ private extension LoginView {
                 text: text
             )
             .keyboardType(keyboard)
+            .textContentType(.username)
             .textInputAutocapitalization(.never)
             .autocorrectionDisabled()
         }
@@ -195,6 +196,7 @@ private extension LoginView {
                 "Password",
                 text: $viewModel.password
             )
+            .textContentType(.password)
         }
         .padding()
         .background(.thinMaterial)
