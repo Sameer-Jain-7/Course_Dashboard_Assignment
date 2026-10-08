@@ -24,3 +24,10 @@ For one million users and hundreds of courses, I would:
 ## 5. Second Platform: Android
 
 I would build the Android app in Kotlin with Jetpack Compose and the same MVVM and repository boundaries. Retrofit or Ktor would handle API calls, Room would cache courses and lesson progress, and Android Keystore would protect authentication tokens. A repository would choose remote or cached data and synchronize queued offline changes when connectivity returns.
+
+## Screenshots
+<img width="1206" height="2622" alt="image" src="https://github.com/user-attachments/assets/3616b4a9-d611-4631-a965-9554fb526154" />
+<img width="1206" height="2622" alt="image" src="https://github.com/user-attachments/assets/80de925f-adee-42a5-afa9-5ef6447db5dc" />
+<img width="1206" height="2622" alt="image" src="https://github.com/user-attachments/assets/daeb1901-3442-4fcf-8f3e-28659a096ef2" />
+
+
