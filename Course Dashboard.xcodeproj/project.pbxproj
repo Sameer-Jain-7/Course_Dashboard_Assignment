@@ -45,6 +45,26 @@
 			path = "Course DashboardUITests";
 			sourceTree = "<group>";
 		};
+		A939791A3077A15300AFE80A /* Core */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A93979293077AFB300AFE80A /* Data */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A93979353077B0DB00AFE80A /* Domain */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A939793B3077B10000AFE80A /* Features */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Features;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +95,10 @@
 		A93978E73076D2D700AFE80A = {
 			isa = PBXGroup;
 			children = (
+				A939793B3077B10000AFE80A /* Features */,
+				A93979353077B0DB00AFE80A /* Domain */,
+				A93979293077AFB300AFE80A /* Data */,
+				A939791A3077A15300AFE80A /* Core */,
 				A93978F23076D2D700AFE80A /* Course Dashboard */,
 				A93979003076D2D900AFE80A /* Course DashboardTests */,
 				A939790A3076D2D900AFE80A /* Course DashboardUITests */,
@@ -109,6 +133,10 @@
 			);
 			fileSystemSynchronizedGroups = (
 				A93978F23076D2D700AFE80A /* Course Dashboard */,
+				A939791A3077A15300AFE80A /* Core */,
+				A93979293077AFB300AFE80A /* Data */,
+				A93979353077B0DB00AFE80A /* Domain */,
+				A939793B3077B10000AFE80A /* Features */,
 			);
 			name = "Course Dashboard";
 			packageProductDependencies = (
